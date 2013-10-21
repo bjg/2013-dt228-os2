@@ -18,16 +18,17 @@ def execute(cmd, argv):
   except OSError: pass
 
 def call(argv):
+  cmd = argv[0]
   if '/' in cmd:
     # Relative or absolute path specified
-    execute(argv[0], argv)
+    execute(cmd, argv)
   else:
     for dir in os.getenv('PATH').split(':'):
       # Keep trying each directory in PATH until we find it
-      execute(dir + '/' + argv[0], argv)
+      execute(dir + '/' + cmd, argv)
 
   # If we get here then execution has failed
-  sys.stderr.write('Unrecognised command: ' + argv[0] + '\n')
+  sys.stderr.write('Unrecognised command: ' + cmd + '\n')
   os._exit(1)
 
 # Read, print, eval, loop (REPL)
