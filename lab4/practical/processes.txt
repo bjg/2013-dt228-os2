@@ -1,0 +1,141 @@
+USER             PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver    310   7.0  1.5  3183784 125404   ??  Ss   21Sep13 147:15.27 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Resources/WindowServer -daemon
+user1          61473   4.3  1.2   975812 102372   ??  U    11:18pm  26:00.20 /Applications/Dropbox.app/Contents/MacOS/Dropbox
+user1            380   3.4  1.3  3913360 108664   ??  S    21Sep13  18:18.70 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+user1            379   1.5  0.4  2661440  31908   ??  S    21Sep13  11:04.94 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+user1            357   1.2  0.1  2476268   8840   ??  S    21Sep13 142:34.33 /usr/sbin/distnoted agent
+root              35   1.1  0.1  2494684   8728   ??  Ss   21Sep13   1:27.44 /usr/libexec/opendirectoryd
+user1            950   0.7  0.0  2693884   3400   ??  S    21Sep13 116:02.46 /usr/local/opt/mongodb/mongod run --config /usr/local/etc/mongod.conf
+root             292   0.6  0.2  2547736  13984   ??  S    21Sep13  46:35.98 /Library/Parallels/Parallels Service.app/Contents/MacOS/prl_disp_service -e --logfile /var/log/prl_disp_service_server.log --pidfile /var/run/prl_disp_service.pid
+user1          25122   0.6  8.1  4959064 682196   ??  R    28Sep13 164:28.94 /Applications/WebStorm 7.app/Contents/MacOS/webide -psn_0_9369839
+user1          12682   0.5  0.1   768628   8936   ??  S    24Sep13 128:44.83 /Applications/TrueCrypt.app/Contents/MacOS/TrueCrypt -psn_0_4322335
+user1          64456   0.5  0.3  2504192  24860   ??  SN   10:32am   2:03.52 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.pool.0
+root           65023   0.4  0.7  2527868  54592   ??  Us    1:19pm   5:04.12 /System/Library/CoreServices/backupd
+user1          32429   0.4  1.8  1115540 147716   ??  S    Mon07pm  37:45.22 /Applications/Microsoft Office 2011/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint -psn_0_11463406
+user1            371   0.4  1.5  2919120 122392   ??  S    21Sep13   9:34.08 /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal -psn_0_45067
+user1          29963   0.3  1.4  1317456 116232   ??  S    30Sep13  27:18.92 /Applications/Microsoft Office 2011/Microsoft Word.app/Contents/MacOS/Microsoft Word -psn_0_11320011
+root              37   0.3  1.5  3138036 127984   ??  Ss   21Sep13  27:04.78 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+user1          11662   0.3  0.5   965404  44740   ??  S    23Sep13  29:42.44 /Applications/Microsoft Office 2011/Microsoft Excel.app/Contents/MacOS/Microsoft Excel -psn_0_3425092
+root              58   0.2  0.0  2469928   1920   ??  Us   21Sep13  44:40.40 /usr/sbin/distnoted daemon
+root           65302   0.1  0.0  2434820    624 s012  R+    2:17pm   0:00.00 ps aux
+user1          57120   0.1  1.3   923440 111416   ??  S    Sat10pm  10:14.14 /Applications/Skype.app/Contents/MacOS/Skype -psn_0_15044184
+user1          11573   0.1  0.9   880536  71644   ??  S    23Sep13  48:18.28 /Applications/Adobe Reader.app/Contents/MacOS/AdobeReader -psn_0_3224339
+user1          64521   0.1  0.0  2436516   2444 s012  S    10:52am   0:00.41 -bash
+user1          62030   0.0  0.1   757224  11508   ??  S     9:37am   0:11.94 /Library/Application Support/Google/GoogleTalkPlugin.app/Contents/MacOS/GoogleTalkPlugin -psn_0_15994688
+user1          61918   0.0  0.1  2486972   7124   ??  Ss    9:33am   0:00.21 /System/Library/SystemConfiguration/EAPOLController.bundle/Contents/Resources/eapolclient -i en1 -u 501 -g 20
+user1          61486   0.0  0.0   596648    180   ??  S    11:18pm   0:10.06 /Library/DropboxHelperTools/Dropbox_u501/dbfseventsd
+root           61485   0.0  0.1   604840   4404   ??  S    11:18pm   0:13.73 /Library/DropboxHelperTools/Dropbox_u501/dbfseventsd
+root           61484   0.0  0.0   596648    424   ??  S    11:18pm   0:02.48 /Library/DropboxHelperTools/Dropbox_u501/dbfseventsd
+user1          61431   0.0  0.0  2434800    384 s010  S+   11:08pm   0:00.57 tail -f log/development.log
+root           42829   0.0  0.0  2489668   3820   ??  Ss   Thu12am   0:00.94 /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/Resources/VDCAssistant
+user1          42600   0.0  0.0  2436516   2660 s011  S    Wed11pm   0:01.21 -bash
+root           42599   0.0  0.0  2467568    948 s011  Ss   Wed11pm   0:00.16 login -pfl user1 /bin/bash -c exec -la bash /bin/bash
+user1          39640   0.0  0.0  2439000   1200 s008  S+   Wed02pm   0:00.09 python
+user1          33041   0.0  0.0  2436516   1688 s010  S    Tue09am   0:00.72 -bash
+root           33040   0.0  0.0  2468592    940 s010  Ss   Tue09am   0:00.28 login -pf user1
+user1          29804   0.0  0.3  2601276  22172   ??  S    30Sep13   0:55.32 /Applications/Preview.app/Contents/MacOS/Preview -psn_0_11139743
+user1          25183   0.0  0.0   629480    752   ??  S    28Sep13   0:20.10 /Applications/WebStorm 7.app/bin/fsnotifier
+user1          24275   0.0  0.4  3592820  32320   ??  S    27Sep13   1:01.30 /System/Library/CoreServices/Dock.app/Contents/Resources/DashboardClient.app/Contents/MacOS/DashboardClient
+user1          17360   0.0  0.1  2517784   8952   ??  Ss   25Sep13   0:03.40 com.apple.dock.extra
+user1          17356   0.0  0.4  2596712  35452   ??  S    25Sep13   2:21.38 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+root           12715   0.0  0.0  2483648   1812   ??  Ss   24Sep13   0:02.86 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/hdiejectd
+user1          12706   0.0  0.1  2493580   4296   ??  Ss   24Sep13   0:03.18 /System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid 89E9A43C-9A76-48B2-A96A-67C2D6CB08CA -post-exec 4
+user1          12702   0.0  0.0   779480   1008   ??  Ss   24Sep13  31:35.57 /Applications/TrueCrypt.app/Contents/MacOS/TrueCrypt -psn_0_4322335
+user1          12696   0.0  0.0   642136    176   ??  S    24Sep13   0:00.00 /Applications/TrueCrypt.app/Contents/MacOS/TrueCrypt -psn_0_4322335
+user1          12686   0.0  0.0   642096    360   ??  S    24Sep13   0:00.11 /Applications/TrueCrypt.app/Contents/MacOS/TrueCrypt -psn_0_4322335
+_spotlight     11548   0.0  0.0  2470100   1036   ??  S    23Sep13   5:35.59 /usr/sbin/distnoted agent
+_spotlight     11413   0.0  0.0  2474684    716   ??  Ss   23Sep13   0:00.79 /sbin/launchd
+root            4941   0.0  0.1  2505356   6072   ??  Ss   22Sep13   0:30.50 /usr/libexec/syspolicyd
+root            4901   0.0  0.0  2468236   1632   ??  Ss   22Sep13   0:00.07 /usr/sbin/filecoordinationd
+user1           2417   0.0  0.0  3038624   1460 s009  S    22Sep13   0:00.09 node program.js
+user1           2303   0.0  0.0  3038880   1468 s009  S    22Sep13   0:00.12 /usr/local/Cellar/node/0.10.17/bin/node /Users/user1/Dropbox/Development/tmp/nodeschool.io/node_modules/stream-adventure/problems/http_server/solution.js
+user1           1616   0.0  0.0  2478500   1884   ??  S    21Sep13   0:02.91 /usr/bin/ssh-agent -l
+user1           1086   0.0  0.1  2516624   6820   ??  S    21Sep13   0:05.39 /System/Library/Image Capture/Support/Image Capture Extension.app/Contents/MacOS/Image Capture Extension -psn_0_225335
+user1           1042   0.0  0.0   672376   3200   ??  S    21Sep13   0:04.97 /Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app/Contents/MacOS/Microsoft AU Daemon.app/Contents/MacOS/Microsoft AU Daemon -psn_0_204850
+user1            973   0.0  0.1   698820   5404   ??  S    21Sep13   0:05.41 /Applications/Evernote.app/Contents/Library/LoginItems/EvernoteHelper.app/Contents/MacOS/EvernoteHelper
+user1            964   0.0  0.1  2515576   4932   ??  S    21Sep13   0:04.05 /Library/Application Support/Tablet/PenTabletDriver.app/Contents/Resources/TabletDriver.app/Contents/MacOS/TabletDriver -psn_0_167977
+user1            961   0.0  0.1  2522164   6316   ??  S    21Sep13   0:04.49 /Library/Application Support/Tablet/PenTabletDriver.app/Contents/Resources/ConsumerTouchDriver.app/Contents/MacOS/ConsumerTouchDriver -psn_0_151589
+user1            957   0.0  0.6   836324  52480   ??  S    21Sep13   9:16.07 /Applications/Google Drive.app/Contents/MacOS/Google Drive -psn_0_118813
+user1            955   0.0  0.0  2487604   2624   ??  S    21Sep13   0:03.69 /Applications/iTunes.app/Contents/MacOS/iTunesHelper.app/Contents/MacOS/iTunesHelper -psn_0_114716
+user1            952   0.0  0.0  2447760    252   ??  S    21Sep13   0:29.71 /usr/local/bin/memcached -l localhost
+user1            951   0.0  0.1   681136   5224   ??  S    21Sep13   0:19.80 /Applications/Plex.app/Contents/Resources/Plex/tools/osx/PlexHelper -x
+user1            946   0.0  0.1  2501016   5340   ??  S    21Sep13   0:02.90 /Library/Parallels/Parallels Service.app/Contents/PlugIns/Parallels NAPT Service.app/Contents/MacOS/prl_naptd proxy
+user1            945   0.0  0.1  2545108  10088   ??  S    21Sep13   0:09.85 /Library/Application Support/Tablet/PenTabletDriver.app/Contents/MacOS/PenTabletDriver
+user1            940   0.0  0.0  2485616   2856   ??  S    21Sep13   0:23.90 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+user1            935   0.0  0.0  2469052   1300   ??  SN   21Sep13   0:00.02 /usr/libexec/warmd_agent
+user1            934   0.0  0.1  2517212   6240   ??  S    21Sep13   0:04.78 /Applications/Skitch.app/Contents/Library/LoginItems/J8RPQ294UB.com.skitch.SkitchHelper.app/Contents/MacOS/J8RPQ294UB.com.skitch.SkitchHelper
+user1            924   0.0  0.1  2499888   8420   ??  S    21Sep13   0:25.26 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+user1            921   0.0  0.1  2490856   4576   ??  S    21Sep13   0:03.48 /usr/libexec/lsboxd
+user1            639   0.0  0.0  2436516    712 s009  S+   21Sep13   0:01.72 -bash
+root             633   0.0  0.0  2468592    876 s009  Ss   21Sep13   0:00.02 login -pfl user1 /bin/bash -c exec -la bash /bin/bash
+user1            593   0.0  0.0  2436516   1376 s008  S    21Sep13   0:00.68 -bash
+user1            571   0.0  0.0  2436516    660 s007  S+   21Sep13   0:00.09 -bash
+root             570   0.0  0.0  2468592    876 s008  Ss   21Sep13   0:00.02 login -pf user1
+user1            548   0.0  0.0  2436516    660 s006  S+   21Sep13   0:00.10 -bash
+root             547   0.0  0.0  2467568    876 s007  Ss   21Sep13   0:00.02 login -pfl user1 /bin/bash -c exec -la bash /bin/bash
+root             458   0.0  0.0  2468592    876 s006  Ss   21Sep13   0:00.02 login -pfl user1 /bin/bash -c exec -la bash /bin/bash
+user1            420   0.0  0.0  2436516    660 s004  S+   21Sep13   0:00.10 -bash
+user1            418   0.0  0.0  2436516    660 s001  S+   21Sep13   0:00.09 -bash
+user1            419   0.0  0.0  2436516    692 s005  S+   21Sep13   0:00.22 -bash
+user1            408   0.0  0.0  2436516    660 s003  S+   21Sep13   0:00.09 -bash
+user1            406   0.0  0.0  2436516    660 s000  S+   21Sep13   0:00.09 -bash
+user1            405   0.0  0.0  2436516    660 s002  S+   21Sep13   0:00.09 -bash
+root             403   0.0  0.0  2466544    876 s005  Ss   21Sep13   0:00.02 login -pfl user1 /bin/bash -c exec -la bash /bin/bash
+root             402   0.0  0.0  2468592    876 s004  Ss   21Sep13   0:00.02 login -pfl user1 /bin/bash -c exec -la bash /bin/bash
+root             401   0.0  0.0  2468592    876 s003  Ss   21Sep13   0:00.02 login -pfl user1 /bin/bash -c exec -la bash /bin/bash
+root             400   0.0  0.0  2458352    876 s002  Ss   21Sep13   0:00.02 login -pfl user1 /bin/bash -c exec -la bash /bin/bash
+root             399   0.0  0.0  2468592    876 s001  Ss   21Sep13   0:00.02 login -pfl user1 /bin/bash -c exec -la bash /bin/bash
+root             397   0.0  0.0  2467568    876 s000  Ss   21Sep13   0:00.03 login -pfl user1 /bin/bash -c exec -la bash /bin/bash
+user1            384   0.0  0.1  2521768   6776   ??  S    21Sep13   1:01.18 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+user1            378   0.0  0.1  2508224   6604   ??  S    21Sep13   0:06.72 /System/Library/CoreServices/talagent
+user1            362   0.0  0.0  2460028    364   ??  S    21Sep13   0:00.02 /usr/sbin/pboard
+user1            355   0.0  0.1  2501688   9612   ??  S    21Sep13   0:11.67 /usr/libexec/UserEventAgent -l Aqua
+user1            352   0.0  0.0  2474840   1252   ??  Ss   21Sep13   0:17.22 /sbin/launchd
+root             338   0.0  0.0  2467296   1344   ??  Ss   21Sep13   0:00.26 /System/Library/CoreServices/logind
+root             319   0.0  0.0  2441692    768   ??  Ss   21Sep13   0:00.11 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+root             269   0.0  0.1  2501616   7396   ??  Ss   21Sep13   1:02.08 /Library/Parallels/Parallels Service.app/Contents/PlugIns/Parallels NAPT Service.app/Contents/MacOS/prl_naptd
+root             184   0.0  0.0   630280    676   ??  Ss   21Sep13   0:03.10 /Library/Frameworks/HPServicesInterface.framework/Runtime/hpusbmond
+_netbios         145   0.0  0.0  2481252   2364   ??  SNs  21Sep13   6:10.14 /usr/sbin/netbiosd
+_coreaudiod      116   0.0  0.1  2478688   8164   ??  Ss   21Sep13  51:30.58 /usr/sbin/coreaudiod
+root              59   0.0  0.3  2549972  25348   ??  Ss   21Sep13   7:56.66 /System/Library/CoreServices/coreservicesd
+root              57   0.0  0.0  2435492    576   ??  Ss   21Sep13   0:00.20 /bin/sh /Library/Parallels/Parallels Service.app/Contents/Resources/ParallelsDispatcherService start
+root              56   0.0  0.1  2501808   4840   ??  Ss   21Sep13   6:28.86 /usr/sbin/aosnotifyd
+root              55   0.0  0.2  2499192  19752   ??  Ss   21Sep13  18:50.81 /System/Library/PrivateFrameworks/ApplePushService.framework/applepushserviced
+root              54   0.0  0.0  2467816   1348   ??  Ss   21Sep13   0:02.80 autofsd
+root              47   0.0  0.0  2434816    396   ??  Ss   21Sep13   0:12.26 /sbin/dynamic_pager -F /private/var/vm/swapfile
+root              45   0.0  0.0  2468808   1480   ??  Us   21Sep13  35:21.35 /usr/libexec/hidd
+root              43   0.0  0.0  2478648   2204   ??  Ss   21Sep13   0:04.01 /usr/libexec/InternetSharing
+root              42   0.0  0.0  2458180    624   ??  Ss   21Sep13   0:03.04 /usr/sbin/KernelEventAgent
+user1             40   0.0  0.5  2638980  40404   ??  Ss   21Sep13  13:12.44 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+_mdnsresponder    38   0.0  0.0  2483896   2944   ??  Ss   21Sep13  12:26.35 /usr/sbin/mDNSResponder -launchd
+root              32   0.0  0.0  2483464   1964   ??  Ss   21Sep13   0:40.54 /System/Library/CoreServices/powerd.bundle/powerd
+root              31   0.0  0.0  2486196   2124   ??  Ss   21Sep13   0:03.37 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+root              28   0.0  0.2  2499572  15540   ??  Ss   21Sep13  78:52.42 /usr/sbin/securityd -i
+root              27   0.0  0.0  2465780    668   ??  Ss   21Sep13   0:03.10 /usr/libexec/stackshot -t
+root              25   0.0  0.0  2467312    656   ??  Ss   21Sep13   0:03.20 /sbin/SystemStarter
+_usbmuxd          23   0.0  0.0  2479356   1308   ??  Ss   21Sep13   0:03.22 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+nobody            22   0.0  0.0  2470872   2536   ??  SNs  21Sep13   0:05.72 /usr/libexec/warmd
+root              18   0.0  0.0  2436496   1000   ??  Ss   21Sep13   0:40.15 /usr/sbin/ntpd -c /private/etc/ntp-restrict.conf -n -g -p /var/run/ntpd.pid -f /var/db/ntp.drift
+root              16   0.0  0.0  2475640   1092   ??  Ss   21Sep13   0:13.23 /usr/sbin/syslogd
+root              15   0.0  0.1  4045752   9600   ??  Ss   21Sep13   8:55.89 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Support/fseventsd
+root              14   0.0  0.1  2494028   5100   ??  Ss   21Sep13   2:11.67 /usr/libexec/configd
+root              13   0.0  0.0  2467428   1652   ??  Ss   21Sep13   0:05.22 /usr/sbin/diskarbitrationd
+root              12   0.0  0.0  2463468   1504   ??  Ss   21Sep13   0:27.57 /usr/sbin/notifyd
+root              11   0.0  0.1  2509036   9660   ??  Ss   21Sep13   0:40.20 /usr/libexec/UserEventAgent -l System
+root              10   0.0  0.0  2468836   3696   ??  Ss   21Sep13   0:06.30 /usr/libexec/kextd
+root               1   0.0  0.0  2475428   1544   ??  Ss   21Sep13  16:28.30 /sbin/launchd
+root           65270   0.0  0.1  2487700   9692   ??  Ss    2:15pm   0:00.23 /usr/libexec/taskgated -p -s
+user1          65248   0.0  0.1  2469412   5148   ??  Ss    2:12pm   0:00.14 /usr/libexec/xpchelper
+user1          65238   0.0  0.2  4073316  20436   ??  S     2:10pm   0:00.38 /System/Library/Frameworks/QuickLook.framework/Resources/quicklookd.app/Contents/MacOS/quicklookd
+user1          65231   0.0  0.2  2497484  14548   ??  SN    2:09pm   0:11.08 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.pool.1
+root           65228   0.0  0.0  2484296   3120   ??  Ss    2:09pm   0:00.04 /usr/sbin/ocspd
+user1          65223   0.0  0.1  2511140  11752   ??  S     2:08pm   0:00.14 /System/Library/Frameworks/Quartz.framework/Frameworks/QuickLookUI.framework/Resources/QuickLookUIHelper.app/Contents/MacOS/QuickLookUIHelper
+user1          65219   0.0  0.1   723920   8072   ??  SN    2:07pm   0:00.47 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker32 -s mdworker-lsb -c MDSImporterWorker -m com.apple.mdworker.i386.0
+root           65215   0.0  0.0  2479876   3520   ??  Ss    2:07pm   0:00.05 /usr/sbin/cupsd -l
+_spotlight     65189   0.0  0.2  2503484  19260   ??  UN    2:02pm   0:07.55 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.pool.1
+user1          64989   0.0  1.1  2546532  95344 s011  S+    1:03pm   0:07.89 /Users/user1/.rvm/gems/ruby-2.0.0-p0@oic/bin/thin     
+user1          64986   0.0  0.2  2481796  18448 s011  S+    1:03pm   0:00.77 foreman: master   
+user1          64671   0.0  0.2   728852  15948   ??  Us   10:54am   0:35.83 /Users/user1/Applications/MacVim.app/Contents/MacOS/MacVim -MMNoWindow yes
+user1          64670   0.0  0.1   682188   7428   ??  Ss   10:54am   0:06.09 /Users/user1/Applications/MacVim.app/Contents/MacOS/Vim -f -g shell.py
+root           64520   0.0  0.0  2468592   2160 s012  Ss   10:52am   0:00.15 login -pfl user1 /bin/bash -c exec -la bash /bin/bash
+user1          62144   0.0  0.0  2468552   1424   ??  S    10:32am   0:00.03 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CFNetwork.framework/Versions/A/Support/cookied
