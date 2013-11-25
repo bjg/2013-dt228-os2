@@ -1,4 +1,4 @@
-# Very basic Posix shell with support for executing a single command
+# Very basic Posix shell
 import os
 import sys
 import readline
