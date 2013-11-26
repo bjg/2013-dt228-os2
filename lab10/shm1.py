@@ -19,4 +19,4 @@ pid = os.fork()
 if pid == 0:
   # child
   shm.seek(0)
-  print shm.readline()
+  print(shm.readline())

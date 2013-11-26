@@ -52,7 +52,7 @@ class Consumer(threading.Thread):
     readindex += 1
     mutex.release()
     # 3. Print the message contents to the screen
-    print msg
+    print(msg)
     # 4. Signal that a free message slot is available
     spaceavail.release()
     return

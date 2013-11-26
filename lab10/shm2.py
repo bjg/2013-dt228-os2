@@ -20,7 +20,7 @@ class MyCounter(threading.Thread):
     global mutex
     global counter
     global Synchronised
-    for i in xrange(self.N):
+    for i in range(self.N):
       if Synchronised:
         mutex.acquire()
         counter += 1
@@ -38,5 +38,5 @@ for n in range(T):
 for t in threads:
   t.join()
 
-print counter
+print(counter)
 assert counter == T * Max
