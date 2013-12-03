@@ -8,7 +8,9 @@ class Specs
   end
 
   def run(cmd)
-    %x{echo '#{cmd}' | #{@shell} 2>/dev/null}.split(PROMPT)[1].chomp
+    result = %x{echo '#{cmd}' | #{@shell} 2>/dev/null}.split(PROMPT)
+    return result[1].chomp if result.length >= 2
+    "" 
   end
 
   def single
