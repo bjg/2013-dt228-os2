@@ -38,8 +38,11 @@ class Specs
   end
 
   def background
-    #run('tests/sleep.sh &')
-    false
+    start = Time.now
+    run('tests/sleep.sh &\ntouch l.l')
+    created = File.ctime('l.l')
+    File.delete('l.l')
+    created - start < 2
   end
 
   def redirect_to
@@ -55,6 +58,10 @@ class Specs
 
   def redirect_from
     run('cat < outfile.txt') == 'redirection'
+  end
+
+  def pipeline
+    %x{ls -l | cat | wc -l}.chomp == run('ls -l | cat | wc -l')
   end
 end
 
@@ -111,11 +118,11 @@ PROMPT="sh>> " if PROMPT == ""
   {tc: 'Check how PATH lookup is implemented for a command that does not exist', cmd: :path_not_exists, explanation: "Command not in PATH but expected error not thrown", marks: 0 },
   {tc: 'Check if relative path commands will run', cmd: :relative_path, explanation: "Relative path command not executed ", marks: 0 },
   {tc: 'List files using a glob', cmd: :globbing, explanation: "Expected to be able to list files with globbing", marks: 5 },
-  #{tc: 'Check if command backgrounding is implemented', cmd: :background, explanation: "Command backgrounding not implemented or not working", marks: 5 },
+  {tc: 'Check if command backgrounding is implemented', cmd: :background, explanation: "Command backgrounding not implemented or not working", marks: 5 },
   {tc: 'Check if output redirection is implemented', cmd: :redirect_to, explanation: "Output redirection not implemented or not working", marks: 5 },
   {tc: 'Check if input redirection is implemented', cmd: :redirect_from, explanation: "Input redirection not implemented or not working", marks: 5 },
   #{tc: 'Check if command pipelining is implemented (no command arguments)', depends: :EXTERNAL, cmd: 'uname | wc' , expected: %x{uname | wc}.chomp, explanation: "Command pipelining not implemented or not working", marks: 2.5 },
-  #{tc: 'Check if command pipelining is implemented (with command arguments)', depends: :EXTERNAL, cmd: 'cat outfile.txt | wc -l' , expected: '1', explanation: "Command pipelining not implemented or not working with command arguments", marks: 2.5 },
+  {tc: 'Check if command pipelining is implemented (with command arguments)', cmd: :pipeline, explanation: "Command pipelining not implemented or not working with command arguments", marks: 5 },
   #{tc: 'BONUS (Not graded): Check if simultaneuous input and output redirection is implemented', depends: :EXTERNAL, cmd: 'cat < outfile.txt > /dev/tty' , expected: 'redirection', explanation: "Simultaneous use of < and > not implemented or not working", marks: 0 },
   #{tc: 'BONUS (Not graded): Check if multi-stage pipelining is implemented', depends: :EXTERNAL, cmd: 'uname -a | cat | wc -l' , expected: %{uname -a | cat | wc -l}.chomp, explanation: "3-stage pipeline not implemented or not working", marks: 0 },
   #{tc: 'BONUS (Not graded): Check if internal commands can be pipelined', depends: :EXTERNAL, cmd: 'env|grep PATH' , expected: '/usr/bin', explanation: "3-stage pipeline not implemented or not working", marks: 0 },

@@ -6,7 +6,7 @@ PROMPT = "sh>> "
 
 .PHONY: clean showprompt listfeatures
 
-.shell.py: shell.py 
+.shell.py: shell.py
 	@echo "#!/usr/bin/env python3" > $@
 	cat $< >> $@
 	@chmod +x $@
@@ -18,7 +18,7 @@ grade: .shell.py tests/test_runner.rb
 	@tests/test_runner.rb $(shell pwd)/.shell.py --grade && rm .shell.py
 
 clean:
-	rm -f *~ tests/*~ .shell.py shell.log
+	rm -f *~ tests/*~ .shell.py shell.log *.pyc
 
 listfeatures:
 	@echo EXTERNAL
