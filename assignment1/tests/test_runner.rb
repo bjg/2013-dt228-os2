@@ -61,7 +61,7 @@ class Specs
   end
 
   def pipeline
-    %x{ls -l | cat | wc -l}.chomp == run('ls -l | cat | wc -l')
+    %x{ls -l | wc -l}.chomp == run('ls -l | cat | wc -l')
   end
 end
 
